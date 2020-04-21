@@ -1,0 +1,20 @@
+/* eslint-disable global-require */
+
+const images = {
+  Haze: require('../assets/light-cloud.png'),
+  Snow: require('../assets/snow.png'),
+  Clouds: require('../assets/heavy-cloud.png'),
+  Clear: require('../assets/clear.png'),
+  Rain: require('../assets/heavy-rain.png'),
+  Fog: require('../assets/clear.png'),
+  // Hail: require('../assets/hail.png'),
+  // 'Heavy Cloud': require('../assets/heavy-cloud.png'),
+  // 'Light Cloud': require('../assets/light-cloud.png'),
+  // 'Heavy Rain': require('../assets/heavy-rain.png'),
+  // 'Light Rain': require('../assets/light-rain.png'),
+  // Showers: require('../assets/showers.png'),
+  // Sleet: require('../assets/sleet.png'),
+  // Thunder: require('../assets/thunder.png'),
+};
+
+export default weather => images[weather];
